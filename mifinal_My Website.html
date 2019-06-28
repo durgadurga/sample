@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#container ul{
+list-style:none;
+}
+#container ul li{
+background-color:orange;
+width:150px;
+border:1px solid white;
+height:40px;
+line-height:60px;
+float:left;
+color:white;
+}
+#container ul li:hover{
+background-color:blue;
+}
+#container ul ul{
+display:none;
+}
+#container ul li:hover > ul{
+display:block;
+}
+</style>
+<title> My Website </title>
+<body background="mibackround.jpg">
+<h1><font color = "Green"><left>Hi, Welcome to My Website!</left></font></h1>
+<marquee direction="right"><font color="White">This is my first own website</font></marquee>
+<div>
+<h2><font color = "Red">I would like to share about my wepsite</font></h2>
+</div>
+<div id = "container">
+ <ul>
+  <li>About</li>
+  <li>Favourite
+ <ul>
+  <li>Color</li>
+  <li>Movie</li>
+  <li>Song</li>
+ </ul>
+ </li>
+  <li>Qualification</li>
+  <li>Gallary</li>
+</ul>
+</div>
+<p align = "Center"><img src="Z:\MCA\HTML\mi3.jpg"></img></p>
+<a href="http://stc.ac.in/">College Link</a>
+<a href="file:///Z:/MCA/HTML/migallary.html">Galary</a>
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg"> 
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<video controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+</body>
+</head>
+</html>
